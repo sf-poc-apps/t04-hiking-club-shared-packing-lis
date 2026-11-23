@@ -1,0 +1,10 @@
+{
+  "banner_refs": [
+    "app/layout.tsx"
+  ],
+  "allow": {
+    "subprocess": [
+      "tests/"
+    ]
+  }
+}

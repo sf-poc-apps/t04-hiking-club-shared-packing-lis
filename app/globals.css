@@ -11,3 +11,8 @@ button { font: inherit; background: var(--accent); color: #fff; border: 0; borde
 .list li { background: var(--card); border: 1px solid #e6e0ee; border-radius: 8px; padding: 10px 12px; display: flex; gap: 10px; align-items: center; }
 .inline { margin-left: auto; }
 .muted { color: var(--muted); }
+.error { color: #b3261e; margin: 0; font-size: 0.9em; }
+.danger { background: #b3261e; }
+.list li.packed strong { text-decoration: line-through; }
+.filter { display: flex; gap: 10px; align-items: end; }
+.filter button { align-self: end; }
